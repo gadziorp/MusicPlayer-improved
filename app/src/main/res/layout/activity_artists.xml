@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/main_from_songs"
+            android:text="@string/mainButton"
+            style="@style/ButtonStyle"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/song"
+            android:text="@string/song_button"
+            style="@style/ButtonStyle"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/playlist_from_song"
+            android:text="@string/playlistsButton"
+            style="@style/ButtonStyle"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/search_from_song"
+            android:text="@string/searchButton"
+            style="@style/ButtonStyle"/>
+    </LinearLayout>
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/artist1TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jhvkjcvjkvjkvjlvljvljvlj"
+        >
+
+    </TextView>
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/artist2TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jhvkjcvjkvjkvjlvljvljvlj"
+        >
+
+    </TextView>
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/artist3TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jhvkjcvjkvjkvjlvljvljvlj"
+        >
+
+    </TextView>
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/artist4TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jhvkjcvjkvjkvjlvljvljvlj"
+        >
+
+    </TextView>
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/artist5TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jhvkjcvjkvjkvjlvljvljvlj"
+        >
+
+    </TextView>
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/artist6TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jhvkjcvjkvjkvjlvljvljvlj"
+        >
+
+    </TextView>
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/artist7TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jhvkjcvjkvjkvjlvljvljvlj"
+        >
+
+    </TextView>
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/artist8TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jhvkjcvjkvjkvjlvljvljvlj"
+        >
+
+    </TextView>
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/explanation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:layout_margin="44dp"
+        android:text="here will be list of artists. After click on name you will get all available songs for specific author"
+        >
+
+    </TextView>
+</LinearLayout>

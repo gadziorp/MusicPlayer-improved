@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+    <string name="song_activity_label">Songs</string>
+    <string name="playlist_activity_label">Playlists</string>
+    <string name="search_activity_label">Search</string>
+    <string name="Artist_activity_label">Artists</string>
+    <string name="mainButton">main</string>
+    <string name="artistsButton">artists</string>
+    <string name="playlistsButton">playlists</string>
+    <string name="searchButton">search</string>
+    <string name="song_button">song</string>
+</resources>
